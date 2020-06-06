@@ -1,0 +1,19 @@
+STEPS TO RUN R CODE :-
+Step - 1 : Install RStudio.
+Step - 2 : Install the required packages. Code: install.packages(<required_package>)
+Step - 3 : Open the file "Credit_Card_Segmentation_R.R" in RStudio.
+Step - 4 : Press [ctrl + Enter] (in windows) to execute each line of the code. [Depends on the system/application settings]
+---->> You can visualize graphs and other plots on the Right Bottom corner of the Screen.
+***Packages to be installed in R   ->   tidyverse, dplyr, ggplot2, caret, NbClust
+
+STEPS TO RUN PYTHON CODE :-
+Step - 1 : Install Anaconda Framework, with Python 3
+Step - 2 : Open anaconda prompt, and install the required packages using the command 'pip install <required_package>'
+Step - 3 : Using the anaconda prompt, Change to the Drive in which your python file is present. 
+Step - 4 : In the same prompt, enter 'jupyter notebook' to open the Python Jupyter Notebook.
+Step - 5 : Once jupyter is open, migrate to the folder in which your Python code is present and open it.
+Step - 6 : Press [ctrl + Enter] or [shift + Enter] to execute each cell. [Again depends on system/application settings]
+---->> Graphs and plots will appear right below each cell.
+***Pacakges to be installed in Anaconda Framework ->  os, pandas, numpy, seaborn, matplotlib.pyplot, sklearn, 
+
+# We can deploy the model either Online or Offline as per the requirement.

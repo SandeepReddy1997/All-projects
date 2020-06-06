@@ -1,0 +1,24 @@
+The objective of this Case is to Predication of bike rental count on daily based on the environmental 
+	and seasonal settings. Aim is to predict the count of bike rented daily based on data set provided.
+We would like to predict the number of bikes that can be rented on particular data based on environmental 
+	and seasonal settings.
+
+Data Fields
+Instant          -      Recorded Index
+Date               -    date
+Season           -    1 = spring, 2 = summer, 3 = fall, 4 = winter 
+Year	     -    Year recorded(0: 2011, 1:2012)
+Month	     -    Month Recorded (1 to 12)
+Holiday          -    whether the day is considered a holiday(0:Holiday, 1:Not a Holiday)
+WorkingDay   -   whether the day is neither a weekend nor holiday
+WeatherSit     -   1: Clear, Few clouds, Partly cloudy, Partly cloudy
+                           2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
+                           3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
+                           4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog 
+Temp             -     temperature in Celsius
+aTemp           -     "feels like" temperature in Celsius
+Humidity      -      relative humidity
+WindSpeed    -    wind speed
+Casual           -     number of non-registered user rentals initiated
+Registered      -    number of registered user rentals initiated
+Count            -     number of total rentals
